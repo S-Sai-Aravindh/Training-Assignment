@@ -1,0 +1,27 @@
+
+Assignment
+
+
+1. Write a query to display EName and Sal of employees whose salary are greater than or equal to 2200?
+	---> select ename , sal from empl where sal >=2200;
+
+2. Write a query to display details of employs who are not getting commission?
+	--->select * from empl where comm is null;
+
+3. Write a query to display employee name and salary of those employees who don’t have their salary in range of 2500 to 4000?
+	--->select * from empl where sal not between 2500 and 4000;
+
+4. Write a query to display the name, job title and salary of employees who don’t have manager?
+	--->select ename, job,sal from empl where job not like "Manager";	
+
+5. Write a query to display the name of employee whose name contains “A” as third alphabet?
+	--->select ename from empl where ename like "__a%";
+
+6. Write a query to display the name of employee whose name contains “T” as last alphabet?
+	--->select ename from empl where ename like "%t";
+
+7. Write a query to display the name of employee whose name contains ”M” as First and “L” as third alphabet?
+	--->select ename from empl where ename like "m_l%";
+
+8. Write a query to display details of employs with the text “Not given”, if commission is null?
+	--->select empno,ename,job,mgr,hiredate,sal,comm,deptno,  coalesce(comm, 'Not given') as commission from empl;

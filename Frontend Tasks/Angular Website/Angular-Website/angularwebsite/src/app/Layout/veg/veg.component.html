@@ -1,0 +1,20 @@
+<div class="veg-container">
+    <section class="veg-header">
+      <h1>Our Veg Delights</h1>
+      <p>Experience the taste of nature with our handpicked vegetarian dishes.</p>
+    </section>
+  
+    <section class="veg-content">
+      <div *ngFor="let dish of vegDishes" class="veg-dish">
+        <img [src]="dish.image" [alt]="dish.name" />
+        <h2>{{ dish.name }}</h2>
+        <p>{{ dish.description }}</p>
+      </div>
+    </section>
+  
+    <section class="veg-footer">
+      <h3>Fresh & Healthy Ingredients</h3>
+      <p>We source the best seasonal vegetables to ensure the freshest flavors in every bite.</p>
+    </section>
+  </div>
+  

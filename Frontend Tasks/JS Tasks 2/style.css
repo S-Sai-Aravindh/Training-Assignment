@@ -1,0 +1,54 @@
+.fullbox{
+    display: flex;
+    justify-content: center;
+}
+.inputform{
+    display: flex;
+    border: 3px solid lightblue;
+    width: 550px;
+    padding: 20px;
+    justify-content: space-around;
+    
+}
+.inputlabels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Textboxins{
+    width: 200px;
+    height: 100px;
+    border: 3px solid;
+    padding: 5px;
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.replacetxt{
+    width: 150px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    border: 1.5px solid;
+}
+.butbox{
+    top: 15px;
+    position: relative;
+}
+
+.buttonr{
+    width: 125px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    background-color: aquamarine;
+    border: 2px;
+    border-radius: 10px;
+}
+
+.replpart{
+    position: relative;
+    left: 15px;
+}

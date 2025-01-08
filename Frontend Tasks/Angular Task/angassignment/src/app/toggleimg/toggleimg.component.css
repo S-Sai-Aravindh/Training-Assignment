@@ -1,0 +1,63 @@
+body{
+    background-color: lightblue;
+}
+.task1{
+    display: flex;
+    justify-content: center;
+}
+.switchbox{
+    text-align: center;
+}
+.switchbut{
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    background-color: green;
+
+}
+.task2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.task2button{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: green;
+    border: 2px solid black;
+    border-radius: 18px;
+    font-size: 18px;
+}
+.task2button2{
+    width: 160px;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 18px;
+    font-size: 18px;
+}
+.task2button3{
+    width: 180px;
+    height: 40px;
+    background-color: red;
+    color: yellow;
+    border: 2px solid red;
+    border-radius: 18px;
+    font-size: 18px;
+}
+.task2button4{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: purple;
+    border: 2px solid black;
+    border-radius: 18px;
+    font-size: 18px;
+}
+
+.imgtog{
+    width: 600px;
+    height: 300px;
+}

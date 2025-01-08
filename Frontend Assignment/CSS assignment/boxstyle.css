@@ -1,0 +1,33 @@
+.box{
+    border: 5px solid black;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+.Top-Left{
+
+}
+
+.Top-Right{
+    position: absolute;
+    right: 0px;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.Bottom-Left{
+    position: absolute;
+    bottom: 0px;
+}
+
+.Bottom-right{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

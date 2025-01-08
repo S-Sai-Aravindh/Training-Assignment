@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Image</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        .task1{
+            display: flex;
+            justify-content: center;
+        }
+        .switchbox{
+            text-align: center;
+        }
+        .switchbut{
+            height: 30px;
+            border-radius: 10px;
+            border: 2px solid purple;
+            background-color: green;
+
+        }
+        .task2{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .task2button{
+            width: 160px;
+            height: 40px;
+            background-color: black;
+            color: green;
+            border: 2px solid black;
+            border-radius: 18px;
+            font-size: 18px;
+        }
+        .task2button2{
+            width: 160px;
+            height: 40px;
+            background-color: yellow;
+            color: black;
+            border: 2px solid yellow;
+            border-radius: 18px;
+            font-size: 18px;
+        }
+        .task2button3{
+            width: 180px;
+            height: 40px;
+            background-color: red;
+            color: yellow;
+            border: 2px solid red;
+            border-radius: 18px;
+            font-size: 18px;
+        }
+        .task2button4{
+            width: 160px;
+            height: 40px;
+            background-color: black;
+            color: purple;
+            border: 2px solid black;
+            border-radius: 18px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task 1</h1>
+    <div class="task1">
+        <div class="switchbox">
+         
+        <img src="../JS Tasks/assests/zoro.jpg" alt="Zoro" id="img1"><br>
+        <h1 id="title1">Zoro</h1>
+        <button class="switchbut" type="button" style="width: 100px;" onclick="switchimgs()">Switch</button>
+               
+        </div>
+    </div>
+<hr>
+<h1>Task 2</h1>
+
+    <div class="task2">
+        <div class="switchbox2">
+            <img src="../JS Tasks/assests/zoro.jpg" alt="Zoro" id="img2" width="400px">
+            <h3 id="imgtitle">Roronoa Zoro</h3>
+            
+        <button type="button" id="button1" onclick="switchimg2('Zoro')" class="task2button">Roronoa Zoro</button>
+        <button type="button" id="button2" onclick="switchimg2('Sanji')" class="task2button2">Vinsmoke Sanji</button>
+        <button type="button" id="button3" onclick="switchimg2('Luffy')" class="task2button3">Monkey . D . Luffy</button>
+        <button type="button" id="button4" onclick="switchimg2('Robin')"class="task2button4">Nico Robin</button>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function switchimgs(){
+            let val = document.getElementById("img1").alt;
+            console.log(val);
+            if(val == "Zoro"){
+                document.getElementById("img1").src="../JS Tasks/assests/sanji.jpg";
+                document.getElementById("img1").alt="Sanji";
+                document.getElementById("title1").innerHTML= "Sanji";
+            }
+            else{
+                document.getElementById("img1").src="../JS Tasks/assests/zoro.jpg";
+                document.getElementById("img1").alt="Zoro";
+                document.getElementById("title1").innerHTML= "Zoro";
+            }
+        }
+    
+        function switchimg2(vals){
+            // let vals = document.getElementById("img2").alt;
+            // console.log(vals);
+            if(vals == "Sanji"){
+                document.getElementById("img2").src="../JS Tasks/assests/sanji.jpg";
+                document.getElementById("imgtitle").innerHTML = "Vinsmoke Sanji";
+            }
+            else if(vals == "Zoro"){
+                document.getElementById("img2").src="../JS Tasks/assests/zoro.jpg";
+                document.getElementById("imgtitle").innerHTML = "Roronoa Zoro";
+            }
+            else if(vals == "Luffy"){
+                document.getElementById("img2").src="../JS Tasks/assests/luffy.jpg";
+                document.getElementById("imgtitle").innerHTML = "Monkey . D . Luffy";
+            }
+            else {
+                document.getElementById("img2").src="../JS Tasks/assests/robin.jpg";
+                document.getElementById("imgtitle").innerHTML = "Nico Robin";
+            }
+        }
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<div class="Contactbox">
+    <section class="Contactform">
+      <h2 class="section-title">Contact Us</h2>
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="formbox">
+        <div>
+          <label>Enter your Fullname : </label>
+          <input type="text" formControlName="fname" class="inputboxform" placeholder="Enter your name" />
+          <div *ngIf="contactForm.get('fname')?.invalid && contactForm.get('fname')?.touched" class="error">
+            Name must be 3-30 characters and contain only letters.
+          </div>
+        </div>
+  
+        <div>
+          <label>Enter your Email : </label>
+          <input type="email" formControlName="email" class="inputboxform" placeholder="Enter your Email" />
+          <div *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched" class="error">
+            Enter a valid email.
+          </div>
+        </div>
+  
+        <div>
+          <label>Enter your Contact No : </label>
+          <input type="text" formControlName="contact" class="inputboxform" placeholder="Enter your Contact no" />
+          <div *ngIf="contactForm.get('contact')?.invalid && contactForm.get('contact')?.touched" class="error">
+            Enter a valid contact number (9-11 digits).
+          </div>
+        </div>
+  
+        <div>
+          <label>Enter your Feedback : </label>
+          <textarea formControlName="feedback" class="inputboxform2" placeholder="Enter your feedback"></textarea>
+          <div *ngIf="contactForm.get('feedback')?.invalid && contactForm.get('feedback')?.touched" class="error">
+            Feedback must be between 5 and 300 characters.
+          </div>
+        </div>
+  
+        <button type="submit" class="formsubbutton" [disabled]="contactForm.invalid">Submit</button>
+      </form>
+    </section>
+  
+  </div>
+  

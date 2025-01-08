@@ -1,0 +1,89 @@
+/* About Container */
+.about-container {
+    background-color: #211b16;
+    color: #fff;
+    font-family: 'Georgia', serif;
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 2px solid #b22222;
+  }
+  
+  /* About Header */
+  .about-header h1 {
+    font-size: 2.5rem;
+    color: #b22222;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+  }
+  
+  /* About Content */
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* About Text */
+  .about-text {
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: left;
+  }
+  
+  .about-text h2 {
+    color: #b22222;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* About Image */
+  .about-image {
+    flex: 1;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* History, Vision, Mission Sections */
+  .about-history, .about-vision, .about-mission {
+    margin: 40px 0;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about-history h2, .about-vision h2, .about-mission h2 {
+    color: #b22222;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .about-history p, .about-vision p, .about-mission p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  

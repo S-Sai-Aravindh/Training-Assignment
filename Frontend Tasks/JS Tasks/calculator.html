@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./cstyle.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="box mt-5">
+        <h1 class="ttitle">Calculator</h1>
+        <form >
+            <label for="no1">Enter First number &nbsp;&nbsp;&nbsp;&nbsp; : </label>
+        <input type="number" id="no1"><br>
+        <div class="mt-2">
+            <label for="no2">Enter Second number : </label>
+            <input type="number" id="no2">
+        </div><br>
+        <div class="buttonbox">
+            <button type="button" class="btn btn-outline-primary" onclick="add()">Add</button>
+            <button type="button" class="btn btn-outline-info" onclick="sub()">Subtract</button>
+            <button type="button" class="btn btn-outline-success" onclick="mul()">Multiply</button>
+            <button type="button" class="btn btn-outline-danger" onclick="divi()">Division</button>
+            <button type="reset" class="btn btn-outline-secondary" onclick="resultcl()">Clear</button>
+        </div>
+        <div class="mt-4">
+            <b class="restitle">Result : </b><b id="res" class="resbox"></b>
+        </div>
+        </form>
+    </div>
+
+    <script>
+        function add(){
+            let no1 = document.getElementById("no1").value;
+            let no2 = document.getElementById("no2").value;
+            let res = parseInt(no1)+parseInt(no2);
+            document.getElementById("res").innerHTML = res;
+        }
+        function sub(){
+            let no1 = document.getElementById("no1").value;
+            let no2 = document.getElementById("no2").value;
+            let res = parseInt(no1)-parseInt(no2);
+            document.getElementById("res").innerHTML = res;
+        }
+        function mul(){
+            let no1 = document.getElementById("no1").value;
+            let no2 = document.getElementById("no2").value;
+            let res = parseInt(no1)*parseInt(no2);
+            document.getElementById("res").innerHTML = res;
+        }
+        function divi(){
+            let no1 = document.getElementById("no1").value;
+            let no2 = document.getElementById("no2").value;
+            let res = parseInt(no1)/parseInt(no2);
+            document.getElementById("res").innerHTML = res;
+        }
+        function resultcl(){
+            document.getElementById("res").innerHTML = ""
+        }
+    </script>
+</body>
+</html>

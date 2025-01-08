@@ -1,0 +1,83 @@
+/* Veg Container */
+.veg-container {
+    background-color: #211b16;
+    color: #fff;
+    font-family: 'Georgia', serif;
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 2px solid #09dd1e;
+  }
+  
+  /* Veg Header */
+  .veg-header h1 {
+    font-size: 2.5rem;
+    color: #09dd1e;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .veg-header p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+  }
+  
+  /* Veg Content */
+  .veg-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Veg Dish */
+  .veg-dish {
+    background-color: #09dd1e;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .veg-dish img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .veg-dish h2 {
+    color: #211b16;
+    font-size: 1.8rem;
+    margin: 20px 0;
+  }
+  
+  .veg-dish p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  /* Veg Footer */
+  .veg-footer h3 {
+    color: #09dd1e;
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+  
+  .veg-footer p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ 

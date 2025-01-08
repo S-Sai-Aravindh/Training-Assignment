@@ -1,0 +1,125 @@
+/* Home Container */
+.home-container {
+    background-color: #211b16;
+    color: #fff;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  /* Banner Section */
+  .banner {
+    background-color: #b22222;
+    padding: 80px 20px;
+    color: #fff;
+  }
+  
+  .banner-title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+  }
+  
+  .banner-subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  /* Intro Section */
+  .intro {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+  .intro h2 {
+    font-size: 2rem;
+    color: #b22222;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Features Section */
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .feature-card {
+    background-color: #2b2520;
+    color: #fff;
+    border: 2px solid #b22222;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    color: #b22222;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  }
+
+  
+  .visit-us {
+    background-color: #2b2520;
+    padding: 40px 20px;
+    margin: 40px auto;
+    border-top: 3px solid #b22222;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  .visit-us h2 {
+    color: #b22222;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .address {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #fff;
+  }
+
+.know-more-btn {
+    background-color: #b22222;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Georgia', serif;
+    margin-top: 20px;
+  }
+  
+  .know-more-btn:hover {
+    background-color: #8b1a1a;
+    transform: translateY(-5px);
+  }
+  

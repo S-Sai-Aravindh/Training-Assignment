@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>  
+        
+        <div class="fullbox">
+            <form class="inputform">
+                <div class="Repalcebox">
+                    <textarea name="textareaid" id="textareaid" class="Textboxins">Hi friends,Hello friends , How are you friends</textarea>
+                </div>
+                <div class="replpart">
+                    <label for="replace1">Old Text</label><br>
+                    <input type="text" class="replacetxt" id="replace1">
+                    <button type="button" class="buttonr" onclick="rep()">Replace</button>
+                </div>
+                <div class="replapart">
+                    <label for="repalce2">New Text</label> 
+                    <input type="text" class="replacetxt" id="replace2"><br>
+                    <button type="button" class="buttonr" onclick="repall()">Replace All</button>
+                </div>
+            </form>
+        </div> 
+        <script>
+            
+            function rep(){
+                let textareac = document.getElementById("textareaid").value;
+            console.log(textareac);
+            let oldtxt = document.getElementById("replace1").value;
+            console.log(oldtxt);
+            let newtxt = document.getElementById("replace2").value;
+            console.log(newtxt);
+                let newtxt2 = `${textareac.replace(oldtxt,newtxt)}`;
+                document.getElementById("textareaid").innerHTML = newtxt2;
+            }
+            function repall(){
+                let textareac = document.getElementById("textareaid").value;
+            console.log(textareac);
+            let oldtxt = document.getElementById("replace1").value;
+            console.log(oldtxt);
+            let newtxt = document.getElementById("replace2").value;
+            console.log(newtxt);
+                let newtxt2 = `${textareac.replaceAll(oldtxt,newtxt)}`;
+                document.getElementById("textareaid").innerHTML = newtxt2;
+            }
+        </script>
+</body>
+</html>

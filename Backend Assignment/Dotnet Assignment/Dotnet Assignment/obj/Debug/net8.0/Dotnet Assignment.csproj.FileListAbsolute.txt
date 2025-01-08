@@ -1,0 +1,15 @@
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\bin\Debug\net8.0\Dotnet Assignment.exe
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\bin\Debug\net8.0\Dotnet Assignment.deps.json
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\bin\Debug\net8.0\Dotnet Assignment.runtimeconfig.json
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\bin\Debug\net8.0\Dotnet Assignment.dll
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\bin\Debug\net8.0\Dotnet Assignment.pdb
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\obj\Debug\net8.0\Dotnet Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\obj\Debug\net8.0\Dotnet Assignment.AssemblyInfoInputs.cache
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\obj\Debug\net8.0\Dotnet Assignment.AssemblyInfo.cs
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\obj\Debug\net8.0\Dotnet Assignment.csproj.CoreCompileInputs.cache
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\obj\Debug\net8.0\Dotnet Assignment.sourcelink.json
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\obj\Debug\net8.0\Dotnet Assignment.dll
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\obj\Debug\net8.0\refint\Dotnet Assignment.dll
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\obj\Debug\net8.0\Dotnet Assignment.pdb
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\obj\Debug\net8.0\Dotnet Assignment.genruntimeconfig.cache
+D:\4570\Assignment\Backend Assignment\Dotnet Assignment\Dotnet Assignment\obj\Debug\net8.0\ref\Dotnet Assignment.dll

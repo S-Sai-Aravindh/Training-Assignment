@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+
+.ttitle{
+    text-align: center;
+}
+
+.buttonbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    border: 3px solid lightblue;
+    width: 450px;
+    /* height: 150px; */
+    margin: auto;
+    padding: 10px;
+}
+
+.restitle{
+    font-size: 25px;
+}
+
+.resbox{
+    font-size: 20px;
+}
